@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity Cube</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- <script src="joy.js"></script> -->
+  <script src="gui.js"></script>
+</head>
+
+<body>
+  <div id="header"></div>
+  <div id="gui"></div>
+  <div id="footer"></div>
+  <div id="joystick"></div>
+  <div id="reset"></div>
+</body>
+<script>
+  // Async load JSon config and set callback for gui creation
+  loadGui();
+  // Connect websocket while gui is still being loading
+  wsConnect();
+</script>
+
+</html>

@@ -1,0 +1,61 @@
+{
+   "settings": {
+      "name": "Configuration Settings",
+      "display": {
+         "name": "Display Settings",
+         "max_milliamps": {
+            "name": "Max mAmps",
+            "type": "slider",
+            "value": 7700,
+            "min": 0,
+            "max": 20000,
+            "step": 100
+         }
+      },
+      "Contass": {
+         "name": "contrass Settings",
+         "max_milliamps": {
+            "name": "Max mAmps",
+            "type": "slider",
+            "value": 7700,
+            "min": 0,
+            "max": 20000,
+            "step": 100
+         },
+         "play_one": {
+            "name": "Cycle Animations",
+            "type": "checkbox",
+            "value": false
+         }
+      },
+      "network": {
+         "name": "Network Settings",
+         "ssid": {
+            "name": "Network SSID",
+            "type": "text",
+            "value": "-^..^-",
+            "size": 32
+         },
+         "password": {
+            "name": "Password",
+            "type": "text",
+            "value": "qazwsxedc",
+            "size": 64
+         },
+         "hostname": {
+            "name": "Hostname",
+            "type": "text",
+            "value": "icube",
+            "size": 64
+         },
+         "port": {
+            "name": "Port",
+            "type": "number",
+            "value": 88,
+            "min": 0,
+            "max": 65535,
+            "step": 1
+         }
+      }
+   }
+}
